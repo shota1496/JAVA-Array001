@@ -1,7 +1,5 @@
 import java.util.*;
 
-
-//LeetCode Array101
 public class Main {
     public static void main(String[] args) {
       System.out.println("Hello, World!");
@@ -39,27 +37,6 @@ public class Main {
       System.out.println(dvdCollection[10]);
       System.out.println(dvdCollection[3]);
       
-  }
-  
-
-}
-
-// A simple Definition for a DVD.
-public class DVD{
-  public String name;
-  public int releaseYear;
-  public String director;
-  
-  public DVD(String name, int releaseYear, String director){
-    this.name = name;
-    this.releaseYear = releaseYear;
-    this.director = director;
-    
-  }
-  
-  public String toString(){
-    return this.name + ", directored by " + this.director + ", released in " + this.releaseYear;
-    
   }
   
 }
